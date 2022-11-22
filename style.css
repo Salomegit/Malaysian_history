@@ -1,0 +1,108 @@
+.header {
+    color: #1c1026;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: larger;
+    background-color: #21242b;
+    height: 60px;
+}
+
+.li {
+    display: inline;
+    padding: 20px;
+    float: right;
+}
+
+.link {
+    color: aliceblue;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.contact_box {
+    border: 2px solid #21242b;
+    box-sizing: border-box;
+
+    height: 500px;
+    max-width: 600px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.input {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.h1 {
+    font-family: sans-serif;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: #21242b;
+    height: 50px;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.copyright {
+    color: white;
+    padding: 8px;
+}
+
+
+
+input[type=text],
+label {
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 100px;
+}
+
+input[type=text],
+textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 100px;
+}
+
+input[type=submit] {
+    background-color: #c5bfd7;
+    color: #21242b;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: right;
+    margin-left: 400px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+    padding: 20px;
+}
